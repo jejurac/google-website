@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+    color: #202124;
+}
+
+a {
+    text-decoration: none;
+    color: #202124;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    height: 60px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav-left {
+    margin-left: 15px;
+}
+
+.nav-left .nav-item {
+    padding: 0 5px;
+}
+
+.nav-right .nav-item {
+    padding: 0 8px;
+}
+
+.profile-img {
+    border-radius: 100%;
+    position: relative;
+    top: 10px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.search-area {
+    margin-top: 20px;
+}
+
+.search-box {
+    width: 460px;
+    height: 41px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding-left: 50px;
+    padding-right: 95px;
+    margin-left: 20px;
+}
+
+.search-icon {
+    position: relative;
+    left: 60px;
+    color: #9aa0a6;
+}
+
+.keyboard-icon {
+    position: relative;
+    right: 90px;
+    color: #9aa0a6;
+}
+
+.microphone-icon {
+    position: relative;
+    right: 80px;
+    color: #9aa0a6;
+}
+
+.camera-icon {
+    position: relative;
+    right: 70px;
+    color: #9aa0a6;
+}
+
+.button-area {
+    margin-top: 20px;
+}
+
+.button-area button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.button-area button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.footer-countury {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    color: #70757a;
+}
+
+.footer-info {
+    padding: 0 20px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-item {
+    padding: 15px;
+    color: #70757a;
+}
